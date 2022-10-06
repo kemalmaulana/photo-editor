@@ -133,7 +133,9 @@ class KEditorDemoActivity : Activity() {
 
         if (resultCode == RESULT_OK && requestCode == GALLERY_RESULT) {
             // Open Editor with some uri in this case with an image selected from the system gallery.
+
             val selectedImage = intent.data
+            Log.e("Input", "$selectedImage")
             if (selectedImage != null) {
                 openEditor(selectedImage)
             }

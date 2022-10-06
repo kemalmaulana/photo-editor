@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">img.ly Editor</string>
     <string name="copyright_text">© 2014 – 2021</string>
+    <string name="pesdk_version">10.3.2</string>
 </resources>

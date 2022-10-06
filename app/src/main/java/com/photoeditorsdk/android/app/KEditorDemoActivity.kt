@@ -133,7 +133,7 @@ class KEditorDemoActivity : Activity() {
             val lastState = data.settingsList
             try {
                 IMGLYFileWriter(lastState).writeJson(File(
-                    Environment.getExternalStorageDirectory(),
+                    Environment.getExternalStorageState(),
                     "serialisationReadyToReadWithPESDKFileReader.json"
                 ))
             } catch (e: IOException) {
